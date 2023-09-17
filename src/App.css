@@ -24,7 +24,7 @@ header > nav > ul > li,
 }
 
 .hero-img {
-  @apply w-[400px] h-[400px] object-cover bg-cover bg-center bg-no-repeat bg-hero-image animate-profile-animate;
+  @apply w-[300px] h-[300px] sm:w-[400px] sm:h-[400px] object-cover bg-cover bg-center bg-no-repeat bg-hero-image animate-profile-animate;
 }
 
 .hero-img {

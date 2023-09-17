@@ -1,9 +1,9 @@
 const Skills = () => {
   return (
-    <section className=" flex flex-col items-center py-6" id="skills">
-      <h1 className="text-5xl font-bold">Skills</h1>
-      <p className="text-2xl mt-2">My Technical Level</p>
-      <div className="flex gap-10 mt-8">
+    <section className=" flex flex-col items-center py-6 mt-12 sm:mt-0" id="skills">
+      <h1 className="text-3xl sm:text-5xl font-bold">Skills</h1>
+      <p className="text-lg sm:text-2xl mt-2">My Technical Level</p>
+      <div className="flex flex-col sm:flex-row gap-10 sm:mt-8">
         <div className="skills-container">
           <h2>Frontend Development</h2>
           <ul>

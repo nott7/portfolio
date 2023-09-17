@@ -2,7 +2,7 @@ import React from "react";
 
 const Social = () => {
   return (
-    <div className="flex sm:flex-col gap-2 text-2xl" id="social">
+    <div className="flex sm:flex-col gap-2 text-4xl sm:text-2xl" id="social">
       <a href="https://www.instagram.com/gabry.not/" target="_blank">
         <i class="bx bxl-instagram"></i>
       </a>
