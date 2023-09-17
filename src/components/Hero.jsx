@@ -4,9 +4,9 @@ import MyDetails from "./Hero/MyDetails";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col-reverse sm:flex-row gap-4 sm:justify-between sm:gap-0 sm:h-screen items-center mt-16 sm:mt-0">
+    <section className="flex flex-col-reverse lg:flex-row md:mt-8 gap-4 md:gap-8 sm:justify-between lg:gap-0 lg:h-screen items-center mt-16 sm:mt-0">
       <Social />
-      <div className="flex flex-col-reverse sm:flex-row gap-8 items-center">
+      <div className="flex flex-col-reverse lg:flex-row gap-8 items-center">
         <MyDetails />
         <div className="hero-img"></div>
       </div>

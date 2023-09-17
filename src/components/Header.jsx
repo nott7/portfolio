@@ -5,7 +5,7 @@ const Header = () => {
     <header>
       <nav className="flex justify-between items-center py-4">
         <a href="index.html" className="hover:scale-110"> Nott.dev</a>
-        <ul className="flex gap-6">
+        <ul className="gap-6 hidden md:flex">
           <li>
             <a href="index.html">Home</a>
           </li>
